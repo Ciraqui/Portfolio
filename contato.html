@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Portfólio Gabriel Ciraqui</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>  
+    <div class="topo left">
+        <a href="index.html" class="contact-link">Página inicial</a>
+    </div>
+
+    <div class="mundo">
+        <div class="content-container">
+            <h1 class="contact-title">Informações sobre mim</h1>
+    
+            <div class="contact-info">
+                <ul class="profile-details">
+                    <li><strong>Email:</strong> gciraqui.iftm@gmail.com</li>
+                    <li><strong>Localização:</strong> Uberaba - MG</li>
+                    <li><strong>Telefone:</strong> (64) 99654-2513</li>
+                    <li><strong>Idade:</strong> 21 anos</li>
+                </ul>
+            </div>
+    
+            <h1 class="contact-title">Fale comigo!</h1>
+    
+            <form class="form-container">
+                
+                <div class="info-container">
+                    <div class="info-box">
+                        <label for="nomesobrenome">Nome e sobrenome</label>
+                        <input type="text" id="nomesobrenome" class="input-padrao" required>
+                    </div>
+                
+                    <div class="info-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+                    </div>
+                
+                    <div class="info-box">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                
+                    <div class="info-box">  
+                        <label for="">Qual horário você prefere?</label>
+                        <select class="input-padrao">
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </div>
+                </div>
+                         
+                <div class="form-fieldset">
+                    <fieldset>
+                        <legend>Me mande uma mensagem!</legend>
+                        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Como prefere que eu o contate?</legend>
+                    
+                        <div class="fieldset-input">
+                            <label for="radio-email">Email</label>
+                            <input type="radio" name="contato" value="email" id="radio-email">
+                        </div>
+                        <div class="fieldset-input">
+                            <label for="radio-telefone">Telefone</label>
+                            <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                        </div>
+                    
+                        <div class="fieldset-input">
+                            <label for="radio-whatsapp">Whatsapp</label>
+                            <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+                        </div>
+                    </fieldset>
+                </div>
+                <br>
+              
+                <div class="checkbox-input">
+                    <label for="checkbox-novidades" class="checkbox">Gostaria de receber nossas novidades por email</label>
+                    <input id="checkbox-novidades" type="checkbox">
+                </div>
+              
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+        </div>
+    
+        <section class="mapa">
+            <p>Você pode também me encontrar na <br><b><a class="black" href="https://www.scopeagencia.com.br">agência Scope,</a></b><br> em Goiânia - GO!</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15023.43329137067!2d-47.9577738!3d-19.7186551!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad18160f7b4d3%3A0x5d0c29cbc9d3e469!2sIFTM%20-%20Uberaba%20(Technology%20Park)!5e0!3m2!1sen!2sbr!4v1687738741831!5m2!1sen!2sbr" 
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+        <p class="footer-text">Desenvolvido por <b>Gabriel Ciraqui</b></p>
+        </div>
+    </footer>
+
+</body>
+</html>
