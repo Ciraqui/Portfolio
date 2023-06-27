@@ -40,6 +40,11 @@ a{
   font-size: 24px;
   color: #FF9800;
 }
+
+a:visited{
+  color: #4caf50;
+}
+
 a.black{
   text-decoration: none;
   font-size: 24px;
