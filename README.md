@@ -5,10 +5,10 @@ O objetivo era cumprir com os seguintes requisitos:
 - imagens no HTML
 - listas UL
 - bordas arredondadas
-– uso do hover
-– formulário
-– campos select
-– tabela
-– mapa
-– gradiente
-– adaptado para celular (responsividade)
+- uso do hover
+- formulário
+- campos select
+- tabela
+- mapa
+- gradiente
+- adaptado para celular (responsividade)
