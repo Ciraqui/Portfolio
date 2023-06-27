@@ -18,6 +18,10 @@ p{
 
 }
 
+iframe{
+  margin-top: 2%;
+}
+
 b{
   letter-spacing: 0.5px;
   color: black;
@@ -43,6 +47,10 @@ a{
 
 a:visited{
   color: #4caf50;
+}
+
+a.contact-link:visited{
+  color: white;
 }
 
 a.black{
@@ -226,8 +234,16 @@ fieldset {
   width: 50%;
 }
 
+legend {
+  margin-bottom: 5px;
+}
+
+.checkbox-input{
+  padding-top: 20px;
+}
+
 .form-container {
-  padding: 3%;
+  padding: 3% 3% 1.5% 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -256,7 +272,6 @@ fieldset {
 .checkbox {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .enviar {
@@ -394,6 +409,15 @@ fieldset {
     margin-bottom: 10px;
   }
 
+  legend {
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  label.checkbox{
+    margin: 0px 0px 0px 5px;
+  }
+
   .info-container{
     flex-direction: column;
     margin-bottom: 5%;
@@ -418,10 +442,7 @@ fieldset {
   
   .form-fieldset fieldset{
     width: 100%;
-  }
-
-  legend{
-    margin-bottom: 10px;
+    text-align: start;
   }
 
   .fieldset-input{
@@ -429,12 +450,16 @@ fieldset {
   }
 
   .fieldset-input label{
-    text-align: center;
+    padding-left: 25px;
+  }
+
+  .checkbox{
+    width: 75%;
   }
 
   .checkbox-input{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
   }
 
