@@ -45,6 +45,14 @@ a{
   color: #FF9800;
 }
 
+.tabela-horario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 a:visited{
   color: #4caf50;
 }
